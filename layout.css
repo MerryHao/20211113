@@ -1,0 +1,75 @@
+        /*這是css的註解符號*/
+        /*css selector 選擇器，就是對應的規則*/
+        /*標籤名稱選擇器，span不常用，但body、a、buttom常見*/
+        span{
+            text-decoration: underline
+        }
+        body{
+        background-color: #dddddd
+        }
+
+        /*class 選擇器: 前面加.*/
+        .body1{
+            margin-bottom: 10px;
+            border: peru solid 2px
+        }
+        .body2{
+            margin-bottom: 800px;
+            border:plum solid 2px
+        }
+        .graduate{
+            border:orange solid 2px
+        }
+        .experience{
+            width:50% ;
+            border: 2px dashed blue
+        }
+        .project{
+            margin-bottom: 50px;
+            background-color: purple;
+            padding: 100px;
+            border: 2px solid peachpuff;
+            width: 45%; 
+            font-size: 24px; 
+            font-weight:bold
+        }
+        .price{
+            border: 2px dashed gray; 
+            width:50% ;
+            border: 2px dashed blue; 
+            padding: 10px
+        }
+        .headline{
+            font-size: 40px;
+            font-weight:bold;
+            color:wheat;
+            background-color: #222222;
+            text-align: center;
+            padding: 20px
+        }
+        .small_title{
+            background-color: rgb(17, 82, 82);
+            display:flex;
+            justify-content: center;
+        }
+        .profile{
+            background-color: rgb(17, 82, 82);
+            display:flex;
+            justify-content: center;
+        }
+        .picture{
+            background-color: blueviolet;
+            margin: 10px;
+            width: 400px;
+        }
+        .details{
+            background-color: coral;
+            margin: 10px;
+            width: 500px;
+        }
+        .address{
+            background-color: darkseagreen;
+            margin:10px;
+            width:300px;
+        }
+        

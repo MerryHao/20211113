@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        <div>: 沒有預設樣式的區塊型標籤，乾淨的標籤
+            例如:<h3>不乾淨的標籤，因為自帶樣式
+
+        <span>: 沒有預設樣式的行內行標籤
+            
+    -->
+    <style>
+        div.a {text-decoration-line: underline;}
+    </style> 
+    <!--CSS寫在哪個標籤上 就對哪個標籤產生設定-->
+    <div class="a"><h3 style="color:blueviolet ; font-size:30px" >這是段落標題</h3></div>
+    <div style="color:brown ; font-size:30px ; font-weight:bold" >這是段落標題</div>
+
+     <!--句子中間使用div會導致換行，因為他是區塊型的標籤-->
+    <div style="color:blue">這是<span style="text-decoration:underline">段落</span>的內容</div>
+</body>
+</html>
