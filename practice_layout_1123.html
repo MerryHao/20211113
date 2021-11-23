@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>Document</title>
+    <style>
+        .head{
+            width: auto;
+            background-color: olive;
+            text-align: center;
+            color: papayawhip; 
+            font-weight: bold;
+            padding: 10px;
+        }
+        .content{
+            width: 1000px;
+            border: purple 2px solid;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .box{
+            width: 250px;
+            background-color: salmon;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            vertical-align: top;
+            display: inline-block;
+        }
+        /*RWD*/
+        @media screen and (max-width:600px){
+            .content{width: 100%; text-align: center;}
+        }
+    </style>
+</head>
+<body style="margin: 0px;">
+    <div class="head">hello world</div>
+    <div class="content">
+        <div class="box">
+            <div>my info.</div>
+            <div>taipei</div>
+            <div>neihu</div>
+            <div>158</div>
+        </div>
+        <div class="box">
+            <div>my hobies</div>
+            <div>drinks</div>
+        </div>
+        <div class="box">
+            <div>my social media</div>
+            <div>fb</div>
+            <div>ig</div>
+        </div>
+    </div>
+    
+</body>
+</html>
